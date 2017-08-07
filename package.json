@@ -1,13 +1,11 @@
 {
-  "name": "videocontrol",
+  "name": "@altibox/videocontrol",
   "version": "1.0.0",
-  "main": "tools/server.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "test",
-    "start": "npm run lint & npm run server",
-    "server": "./node_modules/.bin/babel-node tools/server.js",
-    "lint": "node_modules/.bin/eslint src tools scripts",
-    "lint:watch": "npm run lint -- --watch"
+    "start": "npm run server",
+    "server": "./node_modules/.bin/babel-node tools/server.js"
   },
   "dependencies": {},
   "devDependencies": {
