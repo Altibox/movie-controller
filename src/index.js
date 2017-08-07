@@ -1,3 +1,3 @@
-import Videocontrol from './Videocontrol';
+import Videocontrol from './videocontrol';
 
 export default Videocontrol;
