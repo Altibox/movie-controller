@@ -1,9 +1,10 @@
 {
   "name": "@altibox/videocontrol",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "test",
+    "build": "babel src --out-dir lib",
     "start": "npm run server",
     "server": "./node_modules/.bin/babel-node tools/server.js"
   },
